@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+.maincontent {
+  display: flex;
+}
+.left {
+  /* background-color:gainsboro; */
+  height: 200vh;
+  width: 260px;
+  box-shadow: 1px 2px 1px gray;
+}
+.logo {
+  margin: 25px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: 24px;
+  /* border: solid black; */
+}
+.logotext {
+  color: var(--Dark, #454256);
+  font-family: "Bebas Neue";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-shadow: 1px 1px 2px rgb(135, 126, 126);
+}
+.leftmenu:hover svg path{
+  fill:red;
+}
+.menu {
+  height: 280px;
+  width: 256px;
+  /* border: solid black; */
+  color: black;
+}
+
+ul li {
+  list-style: none;
+  padding: 15px;
+}
+.svg {
+  margin-right: 1rem;
+}
+
+.leftmenu {
+  display: flex;
+  align-items: center;
+
+  text-decoration: none;
+  color: black;
+}
+.leftmenu:hover {
+  color: red;
+  background: #FFB6C1;
+  border-radius: 5px;
+  /* height: 30px; */
+  padding: 5px;
+}
+
+.navbar {
+  /* background-color: aqua; */
+  height: 47px;
+  width: 1100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: bisque; */
+  height: 32px;
+  width: 1050px;
+  margin-left: 20px;
+  padding: 5px;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  max-width: 300px; /* You can adjust the width as needed */
+  /* margin: 20px; */
+}
+
+
+.search-input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+
+.search-icon {
+  margin-left: -30px; 
+  cursor: pointer;
+}
+.navbutton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 32px;
+  width: 130px;
+  /* border: solid black; */
+  color: black;
+  margin-left: 500px;
+  background-color: rgb(245, 238, 238);
+}
+.navbtn {
+  border: none;
+  background-color: transparent;
+  padding-left: 15px;
+}
+.cardcontent {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  width: 1040px;
+  /* border: solid black; */
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 160px;
+  /* border: solid rgb(244, 236, 236); */
+  color: black;
+}
+
+.card:hover {
+  background: #FF5B5A;
+  border-radius: 5px;
+}
+.card:hover svg path{
+  fill: white;
+}
+
+.cardbox {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cardsvg {
+  height: 24px;
+  width: 24px;
+}
+
+.cardtxt {
+  padding: 10px;
+  display: block;
+  color: var(--Dark, #454256);
+  text-align: center;
+  font-family: "Hind Siliguri";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  transition: color 0.3s; 
+}
+
+.card:hover .cardtxt {
+  color: white;
+}
+.card2content {
+  margin-left: 10px;
+  /* border: solid black; */
+  margin-top: 30px;
+  height: 180px;
+  width: 1040px;
+  /* box-shadow: 1px 2px 1px gray; */
+}
+.card2txt {
+  color: var(--Dark, #454256);
+  font-family: "Bebas Neue";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.card2container {
+  /* border: solid rgb(239, 12, 12); */
+  height: 150px;
+  width: 1040px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card2box {
+  box-shadow: 1px 2px 3px rgb(225, 222, 222);
+  border-radius: 10px;
+  height: 140px;
+  width: 200px;
+}
+.card2boxtxt {
+  color: red;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.card2num {
+  padding-left: 10px;
+  padding-top: 10px;
+  /* border: solid black; */
+  height: 70px;
+  width: 190px;
+  color: var(--Dark, #454256);
+  font-family: "Hind Siliguri";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+  width: 1040px;
+  margin: 10px;
+}
+.card3content {
+  margin-left: 10px;
+  /* border: solid black; */
+  margin-top: 30px;
+  /* height: 400px;
+  width: 500px;     */
+}
+.card2txt1 {
+  /* border: solid red; */
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  color: var(--Dark, #454256);
+  font-family: "Bebas Neue";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.card4 {
+  margin-top: 40px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 350px;
+  width: 1030px;
+
+  /* border: solid black; */
+}
+.table {
+  /* border: solid rebeccapurple; */
+  margin-top: 30px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  padding: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  /* border: 1px solid #ddd; */
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+}
+
+tr {
+  background-color: transparent;
+}
+table tr td {
+  padding-right: 60px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+table tr td:first-child {
+  padding-right: 100px;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  /* margin-left: 20px; */
+  height: 60px;
+  width: 1050px;
+  padding-left: 10px;
+  /* border: solid black; */
+}
+.footmenu{
+  /* border: solid black; */
+  height: 60px;
+  width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* padding-right: 20px; */  
+}
+.footmenu a{
+  color:red;
+}
